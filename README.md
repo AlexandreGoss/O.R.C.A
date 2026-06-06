@@ -84,7 +84,7 @@ O.R.C.A/
 
 1.  **Clonez le dépôt :**
     ```bash
-    git clone https://github.com/AlexandreGoss/O.R.C.A.git
+    git clone https://github.com/AlexandreGoss/O.R.C.A
     cd O.R.C.A
     ```
 
