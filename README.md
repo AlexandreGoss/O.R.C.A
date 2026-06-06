@@ -2,6 +2,37 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[English](#english) | [Français](#français)
+
+---
+
+## English
+
+ORCA is a bioacoustics project that uses artificial intelligence to identify cetacean species (orcas, dolphins, belugas) from underwater audio recordings.
+
+### Objective
+
+The web application allows you to upload an audio file (`.mp3`, `.wav`) and uses a Deep Learning model (CNN) to predict the most likely species present in the recording.
+
+### Features
+
+- **Audio file upload**: Simple interface to submit a recording
+- **Spectrogram generation**: Automatic conversion of audio to Mel spectrogram
+- **Species prediction**: Identification among classes: `Beluga`, `Dolphin`, `Orca`
+- **Confidence threshold**: If prediction confidence is too low, result is classified as "Other"
+- **Visualization**: Displays the generated spectrogram and prediction result
+
+### Technologies
+
+- **Backend**: Flask (Python)
+- **Machine Learning**: TensorFlow / Keras
+- **Audio Processing**: Librosa
+- **Frontend**: HTML, CSS, JavaScript (with Fetch API)
+
+---
+
+## Français
+
 ORCA est un projet de bioacoustique qui utilise l'intelligence artificielle pour identifier des espèces de cétacés (orques, dauphins, bélugas) à partir d'enregistrements audio sous-marins.
 
 ## 🎯 Objectif
@@ -26,7 +57,7 @@ L'application web permet d'uploader un fichier audio (`.mp3`, `.wav`) et utilise
 ## 📂 Structure du projet
 
 ```text
-ProjetO.R.C.A/
+O.R.C.A/
 ├── app/
 │   ├── static/
 │   │   ├── spectrograms/   # Spectrogrammes générés par l'app (gitignored)
@@ -53,8 +84,8 @@ ProjetO.R.C.A/
 
 1.  **Clonez le dépôt :**
     ```bash
-    git clone https://github.com/TON_NOM_UTILISATEUR/ProjetO.R.C.A.git
-    cd ProjetO.R.C.A
+    git clone https://github.com/AlexandreGoss/O.R.C.A.git
+    cd O.R.C.A
     ```
 
 2.  **Créez un environnement virtuel et installez les dépendances :**
