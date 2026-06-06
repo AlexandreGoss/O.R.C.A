@@ -1,0 +1,29 @@
+# Fichiers et dossiers de l'environnement Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# Fichiers de données et dossiers de données brutes ou générées
+# Ces dossiers ne doivent pas être sur Git car ils peuvent être très lourds.
+audioCetaces/
+spectrograms/
+uploads/
+static/spectrograms/
+spectroppourtest/
+
+# Fichiers de données NumPy générés par preparationDATA.py
+X.npy
+y.npy
+
+# Modèle entraîné (trop lourd pour Git)
+*.keras
+*.h5
+
+# Fichiers de configuration d'IDE et système
+.vscode/
+.idea/
+.DS_Store
